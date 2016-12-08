@@ -1,0 +1,243 @@
+{
+    "author": "zephyr",
+    "dependencies": {},
+    "keywords": [],
+    "name": "korcalendar",
+    "pebble": {
+        "displayName": "Korean Calendar",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/ChaletLondonNineteenSeventy.ttf",
+                    "name": "FONT_CHALET_LONDON_45",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ChaletLondonNineteenSeventy.ttf",
+                    "name": "FONT_CHALET_LONDON_55",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ChaletLondonNineteenSeventy.ttf",
+                    "name": "FONT_CHALET_LONDON_50",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ChaletLondonNineteenSeventy.ttf",
+                    "name": "FONT_CHALET_LONDON_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/ChaletLondonNineteenSeventy.ttf",
+                    "name": "FONT_CHALET_LONDON_40",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/batt_dg_BW.png",
+                    "name": "IMAGE_BATT_DARK2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/BT_off_BW.png",
+                    "name": "IMAGE_BT_FAIL2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt_lg.png",
+                    "name": "IMAGE_BATT_LIGHT",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt_dg.png",
+                    "name": "IMAGE_BATT_DARK",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holirep.png",
+                    "name": "IMAGE_HOLIDAY_99",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/vote.png",
+                    "name": "IMAGE_HOLIDAY_14",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi1009.png",
+                    "name": "IMAGE_HOLIDAY_12",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi1003.png",
+                    "name": "IMAGE_HOLIDAY_11",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/hoii0814.png",
+                    "name": "IMAGE_HOLIDAY_10",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0815n.png",
+                    "name": "IMAGE_HOLIDAY_9",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0815.png",
+                    "name": "IMAGE_HOLIDAY_8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0606.png",
+                    "name": "IMAGE_HOLIDAY_7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0408.png",
+                    "name": "IMAGE_HOLIDAY_6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/hoii0505.png",
+                    "name": "IMAGE_HOLIDAY_5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0301.png",
+                    "name": "IMAGE_HOLIDAY_4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0102.png",
+                    "name": "IMAGE_HOLIDAY_3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0101.png",
+                    "name": "IMAGE_HOLIDAY_2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi0101n.png",
+                    "name": "IMAGE_HOLIDAY_1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi1225.png",
+                    "name": "IMAGE_HOLIDAY_13",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/holi1225.png",
+                    "name": "IMAGE_HOLI_1225",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/thu.png",
+                    "name": "IMAGE_THU_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/wed.png",
+                    "name": "IMAGE_WED_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sat.png",
+                    "name": "IMAGE_SAT_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/tue.png",
+                    "name": "IMAGE_TUE_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sun.png",
+                    "name": "IMAGE_SUN_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/fri.png",
+                    "name": "IMAGE_FRI_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt2.png",
+                    "name": "IMAGE_BATT2_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth-fail.png",
+                    "name": "IMAGE_BT_FAIL1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bluetooth-ok.png",
+                    "name": "IMAGE_BT_OK1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/batt.png",
+                    "name": "IMAGE_BATT_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mon.png",
+                    "name": "IMAGE_MON_SYM",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "0da80de6-ee3b-4194-9849-cdd07dbf14f2",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.65.0"
+}
